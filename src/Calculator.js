@@ -5,7 +5,6 @@ function Calculator() {
   const [input, setInput] = useState('');
   const [results, setResults] = useState([]);
   function handlingAdd(e) {
-    console.log(e);
     setInput(input + e);
   }
   function handlingClear() {
