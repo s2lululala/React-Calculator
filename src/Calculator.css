@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+* {
+    color: white;
+    font-size: 2vh;
+    font-family: 'Jua', 'Roboto', serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 40%;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    height: 15%;
+}
+
+input {
+    background-color: #5B5B5D;
+    width: 100%;
+    outline-style: none;
+    text-align: right;
+}
+
+button {
+    background-color: #828284;
+    border: 1px solid #454448;
+}
+button:hover {
+    opacity: .5;
+}
+.symbol {
+    background-color: orange;
+}
+
+.clear {
+    width: 75%;
+}
+
+.normal {
+    width: 25%;
+}
+
+.half {
+    width: 50%;
+}
+
+.results {
+    width: 15%;
+    height: 40%;
+    text-align: center;
+    margin: 1%;
+}
+
+.results_list,
+.results_element {
+    color: black;
+}
