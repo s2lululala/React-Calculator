@@ -1,16 +1,16 @@
 import React, {useState} from 'react';
 import './Calculator.css';
 
-function Calculator() {
+const Calculator = () => {
   const [input, setInput] = useState('');
   const [results, setResults] = useState([]);
-  function handlingAdd(e) {
+  const handlingAdd = (e) => {
     setInput(input + e);
   }
-  function handlingClear() {
+  const handlingClear = () => {
     setInput('');
   }
-  function handlingEval() {
+  const handlingEval = () => {
     const _input = input;
     if (isNaN(_input.charAt(_input.length - 1)))
     {
